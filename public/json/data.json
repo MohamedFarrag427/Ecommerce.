@@ -1,0 +1,346 @@
+{
+    "slider" : [
+        {
+            "id" : 1,
+            "img_source" : "/images/slider-1.png",
+            "sub_title" : "new products",
+            "title" : "Flexible Chair",
+            "body" : "Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna."
+        },
+
+        {
+            "id" : 2,
+            "img_source" : "/images/slider-2.png",
+            "sub_title" : "best seller",
+            "title" : "Creative Sofa",
+            "body" : "Torem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor incididunt ut labore et dolore magna."
+        }
+    ],
+
+    "category" : [
+        {
+            "id" : 1,
+            "img_source" : "/images/furn4.png",
+            "category_name" : "Bedroom"
+        },
+
+        {
+            "id" : 2,
+            "img_source" : "/images/furn1.png",
+            "category_name" : "Living"
+        },
+
+        {
+            "id" : 3,
+            "img_source" : "/images/furn3.png",
+            "category_name" : "Lounge"
+        },
+
+        {
+            "id" : 4,
+            "img_source" : "/images/furn2.png",
+            "category_name" : "Dining"
+
+        },
+
+        {
+            "id" : 5,
+            "img_source" : "/images/furn1.png",
+            "category_name" : "Office Chair"
+        }
+    ],
+
+    "product" : [
+        {
+            "id" : 1,
+            "img_source" : "/images/1.jpg",
+            "alt_name" : "product1",
+            "title" : "Variable Product",
+            "price" : "69.0",
+            "section" : "home furniture",
+            "category" : "New Arrival",
+            "body" : "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words which don't look even slightly believable. If you are going to use a passage of"
+        },
+        {
+            "id" : 2,
+            "img_source" : "/images/2.jpg",
+            "alt_name" : "product2",
+            "title" : "Josefa Queen Size Bed with Storage in Natural Teak Wood Finish",
+            "price" : "199.0",
+            "section" : "home furniture",
+            "category" : "New Arrival",
+            "body" : "Josefa Queen Size Bed with Storage in Natural Teak Wood Finish There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even"
+        },
+
+        {
+            "id" : 3,
+            "img_source" : "/images/3.jpg",
+            "alt_name" : "product3",
+            "title" : "Minimalist Mid-Century Modern Style Bed",
+            "price" : "159.0",
+            "section" : "home furniture",
+            "category" : "New Arrival",
+            "body" : "It is a long-established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters Many"
+        },
+        {
+            "id" : 4,
+            "img_source" : "/images/4.jpg",
+            "alt_name" : "product4",
+            "title" : "Twist Dining Table",
+            "price" : "288.0",
+            "section" : "home furniture",
+            "category" : "New Arrival",
+            "body" : "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia."
+        },
+        {
+            "id" : 5,
+            "img_source" : "/images/5.jpg",
+            "alt_name" : "product5",
+            "title" : "Round Dining Table Without Chair",
+            "price" : "201.0",
+            "section" : "home furniture",
+            "category" : "New Arrival",
+            "body" : "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes"
+        },
+        {
+            "id" : 6,
+            "img_source" : "/images/6.jpg",
+            "alt_name" : "product6",
+            "title" : "Hospital Reception Table",
+            "price" : "349.0",
+            "section" : "hospital furniture",
+            "category" : "New Arrival",
+            "body" : "Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit"
+        },
+        {
+            "id" : 7,
+            "img_source" : "/images/7.jpg",
+            "alt_name" : "product7",
+            "title" : "High back lounge office chair",
+            "price" : "499.0",
+            "section" : "office furniture",
+            "category" : "New Arrival",
+            "body" : "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,"
+        },
+        {
+            "id" : 8,
+            "img_source" : "/images/8.jpg",
+            "alt_name" : "product8",
+            "title" : "Bedroom Exclusive Mattress",
+            "price" : "199.0",
+            "section" : "home furniture",
+            "category" : "New Arrival",
+            "body" : "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of"
+        },
+        {
+            "id" : 9,
+            "img_source" : "/images/1.jpg",
+            "alt_name" : "product1",
+            "title" : "Variable Product",
+            "price" : "69.0",
+            "category" : "Featured",
+            "body" : "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words which don't look even slightly believable. If you are going to use a passage of"
+        },
+        {
+            "id" : 10,
+            "img_source" : "/images/1.jpg",
+            "alt_name" : "product1",
+            "title" : "Variable Product",
+            "price" : "69.0",
+            "category" : "On Sale",
+            "body" : "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humor, or randomized words which don't look even slightly believable. If you are going to use a passage of"
+        },
+        {
+            "id" : 11,
+            "img_source" : "/images/5.jpg",
+            "alt_name" : "product5",
+            "title" : "Round Dining Table Without Chair",
+            "price" : "210.0",
+            "category" : "On Sale",
+            "body" : "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes"
+        },
+        {
+            "id" : 12,
+            "img_source" : "/images/6.jpg",
+            "alt_name" : "product6",
+            "title" : "Hospital Reception Table",
+            "price" : "349.0",
+            "category" : "On Sale",
+            "body" : "Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit"
+        },
+        {
+            "id" : 13,
+            "img_source" : "/images/8.jpg",
+            "alt_name" : "product8",
+            "title" : "bedrom Exclusive Mattress",
+            "price" : "199.0",
+            "category" : "On Sale",
+            "body" : "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of"
+        },
+        {
+            "id" : 14,
+            "img_source" : "/images/2.jpg",
+            "alt_name" : "product2",
+            "title" : "Josefa Queen Size Bed with Storage in Natural Teak Wood Finish",
+            "price" : "199.0",
+            "category" : "Featured",
+            "body" : "Josefa Queen Size Bed with Storage in Natural Teak Wood Finish There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even"
+        },
+        {
+            "id" : 15,
+            "img_source" : "/images/5.jpg",
+            "alt_name" : "product5",
+            "title" : "Round Dining Table Without Chair",
+            "price" : "201.0",
+            "category" : "Featured",
+            "body" : "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes"
+        },
+        {
+            "id" : 16,
+            "img_source" : "/images/9.jpg",
+            "alt_name" : "product9",
+            "title" : "Rollator walker lightweight 4 wheels folding",
+            "price" : "119.0",
+            "section" : "hospital furniture",
+            "category" : "Featured",
+            "body" : "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,"
+        },
+        {
+            "id" : 17,
+            "img_source" : "/images/10.jpg",
+            "alt_name" : "product10",
+            "title" : "Surgery Bed",
+            "price" : "869.0",
+            "section" : "hospital furniture",
+            "category" : "On Sale",
+            "body" : "t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,"
+        },
+        {
+            "id" : 18,
+            "img_source" : "/images/14.jpg",
+            "alt_name" : "product14",
+            "title" : "Simple Hospital Manual Patient Bed",
+            "price" : "333.0",
+            "section" : "hospital furniture",
+            "category" : "On Sale",
+            "body" : "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use"
+        },
+        {
+            "id" : 19,
+            "img_source" : "/images/12.jpg",
+            "alt_name" : "product12",
+            "title" : "Developer Chair",
+            "price" : "199.0",
+            "section" : "office furniture",
+            "category" : "On Sale",
+            "body" : "t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,"
+        },
+        {
+            "id" : 20,
+            "img_source" : "/images/2.jpg",
+            "alt_name" : "product2",
+            "title" : "Josefa Queen Size Bed with Storage in Natural Teak Wood Finish",
+            "price" : "199.0",
+            "category" : "Tending",
+            "body" : "Josefa Queen Size Bed with Storage in Natural Teak Wood Finish There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even"
+        },
+        {
+            "id" : 21,
+            "img_source" : "/images/4.jpg",
+            "alt_name" : "product4",
+            "title" : "Twist Dining Table",
+            "price" : "288.0",
+            "category" : "Tending",
+            "body" : "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia."
+        },
+        {
+            "id" : 22,
+            "img_source" : "/images/11.jpg",
+            "alt_name" : "product11",
+            "title" : "Hospital bed Tranquil",
+            "price" : "666.0",
+            "section" : "hospital furniture",
+            "category" : "Tending",
+            "body" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a"
+        },
+        {
+            "id" : 23,
+            "img_source" : "/images/13.jpg",
+            "alt_name" : "product13",
+            "title" : "Optima High Back Chair",
+            "price" : "211.0",
+            "section" : "office furniture",
+            "category" : "Tending",
+            "body" : "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of"
+        },
+        {
+            "id" : 24,
+            "img_source" : "/images/15.jpg",
+            "alt_name" : "product15",
+            "title" : "Wheelchair",
+            "price" : "159.0",
+            "section" : "hospital furniture",
+            "category" : "",
+            "body" : "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of"
+        },
+        {
+            "id" : 25,
+            "img_source" : "/images/16.jpg",
+            "alt_name" : "product16",
+            "title" : "Bachelor Bed",
+            "price" : "227.0",
+            "section" : "home furniture",
+            "category" : "",
+            "body" : "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are"
+        },
+        {
+            "id" : 26,
+            "img_source" : "/images/17.jpg",
+            "alt_name" : "product17",
+            "title" : "Broma Bed Side Table",
+            "price" : "75.0",
+            "section" : "home furniture",
+            "category" : "",
+            "body" : "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum"
+        },
+        {
+            "id" : 27,
+            "img_source" : "/images/18.jpg",
+            "alt_name" : "product18",
+            "title" : "Grey Scandinavian Chair",
+            "price" : "68.0",
+            "section" : "office furniture",
+            "category" : "",
+            "body" : "onsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit"
+        }
+    ],
+
+    "news" : [
+        {
+            "id" : 1,
+            "nameRoute" : "eiumod-tempor-incididunt-ut-labore",
+            "img_source" : "/images/news1.jpg",
+            "title" : "Eiumod tempor incididunt labore",
+            "writer" : "By Raju HT, 14 September, 2021",
+            "body" : "Consectetur adipisicing elit, do eiusmod tempor incididunt dolore magna aliqua. Ut enim adminim veniam nostrud exercitation."
+        },
+
+        {
+            "id" : 2,
+            "nameRoute" : "ut-enim-adminim-veniam-quis-nostrud",
+            "img_source" : "/images/news2.jpg",
+            "title" : "Ut enim adminim veniam, qui...",
+            "writer" : "By Raju HT, 14 September, 2021",
+            "body" : "Lorem ipsum dolor sit amet onsectetur elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ipsum dolor sit amet."
+        },
+
+        {
+            "id" : 3,
+            "nameRoute" : "spatialize-with-that-the-furns",
+            "img_source" : "/images/news3.jpg",
+            "title" : "Spatialize with that the furns",
+            "writer" : "By Raju HT, 14 September, 2021",
+            "body" : "Tempor incididunt ut labore eti dolore magna aliqua. Ut enim adminim veniam, quis nostrud ullamco laboris nisi aliquip."
+        }
+    ]
+}

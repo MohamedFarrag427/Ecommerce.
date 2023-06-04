@@ -1,0 +1,184 @@
+.user-sign, 
+.user-register, 
+.forgot-password{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.user-sign form, 
+.user-register form, 
+.forgot-password form{
+    margin: auto;
+    width:50%;
+    padding:50px 0;
+}
+
+.user-sign form .form-control,
+.user-register form .form-control,
+.forgot-password form .form-control{
+    padding-left:2.6rem;
+    font-size: 1.1rem;
+    border:1px solid #437c8a5c;
+    font-weight: bold;
+    color:#062a33;
+}
+
+.user-sign form .form-label,
+.user-register form .form-label,
+.forgot-password form .form-label,
+.user-sign form .text-muted,
+.user-register form .form-check,
+.forgot-password form .text-muted{
+    font-weight: bold;
+    color:#062a33 !important;
+}
+
+.user-register form .form-check-input {
+    border-color: #062a33;
+}
+
+.user-register form .form-check-input{
+    background:#062a33;
+    cursor: pointer;
+}
+
+.user-register form .form-check-input:focus{
+    box-shadow: none;
+}
+
+.user-sign form .form-control:focus,
+.user-register form .form-control:focus,
+.forgot-password form .form-control:focus,
+button.btn-primary:focus
+button.btn-primary:focus,
+button.btn-primary:focus{
+    box-shadow: none!important;
+}
+
+.user-sign form .form-item,
+.user-register form .form-item,
+.forgot-password form .form-item{
+    position: relative ;
+}
+
+.user-sign form .form-item i,
+.user-register form .form-item i,
+.forgot-password form .form-item i{
+    position:absolute;
+    top:44px;
+    left:12px;
+    color:#062a33;
+}
+
+.user-sign form .form-item i::after,
+.user-register form .form-item i::after,
+.forgot-password form .form-item i::after{
+    position:absolute;
+    content:'';
+    width:1px;
+    height:28px;
+    background:#c0c0c096;
+    top: -5px;
+    left:23px;
+}
+
+.user-sign .btn-primary,
+.user-register .btn-primary,
+.forgot-password .btn-primary{
+    display: block;
+    margin: 30px auto;
+    width:100%;
+    background:#062a33 !important;
+    color: white;
+    border-color: #062a33 !important;
+    font-size: 1.2rem;
+}
+
+.user-sign .btn-primary i,
+.user-sign .form-link a i{
+    margin-left: 10px;
+}
+
+.user-sign .btn-primary:hover,
+.user-sign .form-link a:hover,
+.user-register .btn-primary:hover,
+.forgot-password .btn-primary:hover{
+    background:unset !important;
+    color:#062a33;
+    font-weight: bold;
+}
+
+
+.user-sign .form-link{
+    text-align: center;
+}
+
+.user-sign .form-link a{
+    border: 1px solid #062a33;
+    display:inline-block;
+    margin:0 10px;
+    width:150px;
+    height:45px;
+    line-height: 40px;
+    border-radius:5px;
+    background:#062a33;
+    color: white;
+}
+
+.user-register .form-user{
+    display:flex;
+    justify-content: space-between;
+}
+
+.form-user .form-item{
+    width:48%;
+}
+
+.forgot-password h5{
+    margin-bottom: 30px;
+}
+
+.error-color{
+    color:red
+}
+
+.error-border{
+    border-color: red !important;
+}
+
+.error-success{
+    color:green;
+}
+
+/*Media Screen*/
+
+@media (max-width:500px) {
+    .user-sign form, 
+    .user-register form, 
+    .forgot-password form{
+        margin: auto;
+        width:100%;
+        padding:30px 10;
+    } 
+
+    .user-sign .form-link a:nth-child(1){
+        margin-bottom: 10px;
+    }
+
+    .user-register .form-user{
+        display:block;
+    }
+
+    .form-user .form-item{
+        width:100%;
+    }
+}
+
+@media(min-width:501px) and (max-width:991px){
+    .user-sign form, 
+    .user-register form, 
+    .forgot-password form{
+        margin: auto;
+        width:75%;
+        padding:30px 10;
+    }
+}

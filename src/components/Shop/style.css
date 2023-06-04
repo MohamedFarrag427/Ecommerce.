@@ -1,0 +1,229 @@
+.store{
+    color: white !important;
+    background:#2f333a;
+    position:fixed;
+    right: 0;
+    top: 50%;
+    box-shadow: 1px 1px 5px black;
+    padding:10px;
+    width: 100px;
+    height:100px;
+    z-index: 1000;
+    cursor: pointer;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: center;
+}
+
+.store i{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.store-price{
+    background:white;
+    width:100%;
+    border-radius: 2px;
+    color:#062a33;
+    font-weight: bold;
+}
+
+.offcanvas{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+#cart-header{
+    padding:.5rem 1rem 0;
+}
+
+.offcanvas-header .offcanvas-title{
+    color: #062a33 ;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+.offcanvas-body .cart-content{
+    border-bottom: 1px solid #9fb9c0;
+    position: relative;
+}
+
+.offcanvas-body .cart-content:first-child{
+    border-top: 1px solid #9fb9c0;
+}
+
+
+.cart-content .cart-img img{
+    width:70%;
+}
+
+.cart-content .cart-info { 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    align-self: center;
+}
+
+.cart-content .cart-info p{
+    margin-bottom: 5px ;
+    color:#062a33;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden
+}
+
+.cart-content.row{
+    --bs-gutter-x:0;
+}
+
+.cart-content .cart-info form{
+    margin-top: 20px!important;
+    text-align: center;
+}
+
+.cart-content .cart-info form  button:first-child,
+.cart-content .cart-info form button:nth-child(3){
+    width:40px;
+    font-weight: bold;
+    border:1px solid #062a33;
+    border-radius: 5px;
+    background:none;
+    color:#062a33;
+    font-size:1.2rem;
+    margin-left: 0 !important;
+}
+
+.cart-content .cart-info form  button:first-child:hover,
+.cart-content .cart-info form  button:nth-child(3):hover{
+    background:#062a33;
+    color: white;
+}
+
+.cart-content .cart-info form span{
+    display:inline-block;
+    margin:0 10px;
+    font-weight: bold;
+    border-top:1px solid #062a33;
+    border-bottom:1px solid #062a33;
+    width: 30px;
+    text-align: center;
+}
+
+.cart-info .remove-product{
+    background: #062a33;
+    border:none;
+    position:absolute;
+    top: -16px;
+    right: -7px;
+    border-radius: 50%;
+    width:20px;
+    height:20px;
+}
+
+.cart-content .cart-info .remove-product{
+    top: 5px;
+}
+
+.cart-info .remove-product::after,
+.cart-info .remove-product::before{
+    position:absolute;
+    content: '';
+    width:15px;
+    height: 2px;
+    background:white;
+    transition: transform .5s;
+    right: 2px;
+    top: 9px;
+}
+
+.cart-info .remove-product::after{
+    transform:rotate(45deg);
+}
+
+.cart-info .remove-product::before{
+    transform:rotate(-45deg);
+}
+
+.cart-info .remove-product:hover::after{
+    height: 2px;
+    transform:rotate(0deg)
+}
+
+.cart-info .remove-product:hover::before{
+    height: 2px;
+    transform:rotate(0deg)
+}
+
+.offcanvas-body .cart-body p{
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+
+.offcanvas .cart-view{
+    margin:auto;
+    width: 80%;
+    padding-bottom: 20px;
+}
+
+.offcanvas .cart-btn{
+    display:inline-block;
+    width: 100%;
+    margin:auto;
+    display: flex;
+    justify-content: space-around;
+    background:#062a33;
+    height: 50px;
+    font-size: 1.2rem;
+    color:white;
+}
+
+.offcanvas .cart-view .cart-btn{
+    line-height: 50px;
+}
+
+.offcanvas .cart-view .cart-btn span:last-child{
+    display:inline-block;
+    background-color: white;
+    color:#062a33;
+    border-radius: 5px;
+    font-weight: bold;
+    align-self: center;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    
+}
+
+.offcanvas .cart-view .cart-btn:hover {
+    background:unset;
+    color:#062a33;
+    border: 1px solid #437c8a;
+    font-weight: bold;
+}
+
+.offcanvas .cart-view .cart-btn:hover span:last-child{
+    background-color: #062a33;
+    color:white;
+    letter-spacing: .8px;
+}
+
+@media (max-width:576px) {
+    .offcanvas-header .offcanvas-title{
+        font-size:1.5rem
+    }
+
+    .cart-content .cart-info form button:first-child, 
+    .cart-content .cart-info form button:nth-child(3){
+        width:30px
+    }
+
+
+}
+
+@media (max-width:767px) {
+    .store{
+        display:none;
+    }
+}

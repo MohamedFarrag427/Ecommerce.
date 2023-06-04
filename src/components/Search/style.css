@@ -1,0 +1,69 @@
+.offcanvas-top{
+    height: 200px !important;
+    position: relative;
+}
+
+.offcanvas .search-form {
+    text-align: center;
+    margin-top: 30px !important;
+}
+
+.offcanvas-top .btn-close{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 30px;
+    padding: 10px 20px !important;
+}
+
+.offcanvas div .search-form input{
+    width: 50%;
+    height: 40px;
+    padding : 0 15px;
+    border: 1px solid #437c8a;
+    color: #062a33;
+    font-weight: bold;
+    letter-spacing:.5px
+}
+
+.offcanvas div .search-form input:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.offcanvas div .search-form button{
+    width: 100px;
+    height: 40px;
+    margin-left: 30px;
+    outline: none;
+    background:#062a33;
+    color: white;
+    border: 1px solid #062a33;
+}
+
+.offcanvas div .search-form button:hover{
+    color:#062a33;
+    background:unset;
+}
+
+
+/*Media Screen*/
+
+@media (max-width:500px) {
+    .offcanvas-top .btn-close{
+        bottom: 20px;
+    }
+    
+    .offcanvas .search-form {
+        margin-top: 0 !important;
+    }
+
+    .offcanvas div .search-form input{
+        width:100%;
+    }
+
+    .offcanvas div .search-form button{
+        margin-top: 15px;
+        margin-left: 0;
+    }
+}

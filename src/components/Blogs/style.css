@@ -1,0 +1,112 @@
+.blog{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.blog-elumod,
+.blog-nostrud,
+.blog-spatialize{
+    margin:75px auto;
+}
+
+.blog .blog-img span{
+    font-size:1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.blog .blog-img span span{
+    margin-left: 15px;
+}
+
+.blog .blog-info h2{
+    margin:30px 0;
+    color: #062a33;
+    font-weight: bold;
+}
+
+.blog .blog-info p , .blog .blog-info ul{
+    font-size:1.2rem;
+    color:#062a33;
+}
+
+.blog .blog-info ul li{
+    list-style-type:square;
+    color: #062a33;
+}
+
+.blog-elumod .blog-info p:nth-child(3),
+.blog-nostrud .blog-info p:nth-child(3){
+    position: relative;
+    padding-left: 100px;
+}
+
+.blog-elumod .blog-info p:nth-child(3)::before,
+.blog-nostrud .blog-info p:nth-child(3)::before{
+    position: absolute;
+    content:'';
+    width: 3px;
+    height:100%;
+    background:#062a33;
+    left:80px;
+}
+
+
+/*Media Screen*/
+
+@media (max-width:576px){
+    .blog-elumod,
+    .blog-nostrud,
+    .blog-spatialize{
+        margin:35px auto;
+    }
+
+    .blog .caption h2{
+        font-size:1.2rem;
+    }
+
+    .blog .caption {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .blog .caption span:nth-child(3){
+        margin: 0 5px;
+    }
+
+    .blog .blog-info h2{
+        font-size:1.1rem;
+        margin:20px 0;
+    }
+
+    .blog-elumod .blog-info p:nth-child(3),
+    .blog-nostrud .blog-info p:nth-child(3){
+        padding-left: 0;
+    }
+
+    .blog-elumod .blog-info p:nth-child(3)::before,
+    .blog-nostrud .blog-info p:nth-child(3)::before{
+        position: relative;
+    }
+}
+
+@media (min-width:577px) and (max-width:991px){
+    .blog .caption h2{
+        font-size:2rem;
+    }
+}
+
+@media (min-width:992px) {
+    .blog .blog-elumod,
+    .blog .blog-nostrud,
+    .blog .blog-spatialize{
+        width: 80%;
+    }
+
+    .blog .blog-img img{
+        height:450px;
+    }
+}
